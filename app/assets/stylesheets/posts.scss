@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+}
+.side-bar {
+  background-color: #F7F7F7;
+  width: 600px;
+  height: 100vh;
+  border-right: solid;
+  border-width: 1px;
+}
+.main {
+  background-color: #F7F7F7;
+  width: calc(100vw - 600px);
+  overflow: scroll;
+}
+
+.main-title {
+  padding: 10px;
+  font-size: 30px;
+}
+.post{
+  border: 1px solid;
+  width: 80%;
+  margin: 10px 20px;
+}
+
+.post-date{
+  color: gray;
+}
+
+.new-post { 
+  margin-left:  20px;
+}
