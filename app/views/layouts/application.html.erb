@@ -12,7 +12,8 @@
   <body>
     <div class="header">
       <div class="header-logo"><h1>ShareApp</h1></div>
-      <div class="header-text">投稿する</div>
+      <div class="header-text">文字</div>
+      <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
     </div>
     <%= yield %>
   </body>
